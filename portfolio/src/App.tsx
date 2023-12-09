@@ -1,10 +1,12 @@
 import './App.css'
 
+import PortfolioNavbar from "./components/navbar/navbar"
+
 function App() {
 
   return (
     <>
-      <h1>saudades...</h1>
+      <PortfolioNavbar/>
     </>
   )
 }
