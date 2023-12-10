@@ -5,7 +5,7 @@ const PortfolioNavbar: React.FC = () => {
   return (
     <nav className="navbar">
       <div className="logo">
-        <p>Elano N. Caitano</p>
+        <a href="#">Elano N. Caitano</a>
       </div>
       <div className="links">
         <a href="#">Início</a>
