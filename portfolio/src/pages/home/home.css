@@ -2,3 +2,12 @@
     width: 251px;
     height: 223px;
 }
+
+.home-text-container {
+    margin-top: 41px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 39px;
+}
