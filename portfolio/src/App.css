@@ -18,3 +18,10 @@ body {
   color: white;
   background-color: var(--background);
 }
+
+.components-container {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  align-items: center;
+}
