@@ -1,0 +1,34 @@
+.card img {
+    width: 390px;
+    height: 235px;
+}
+
+.card-content {
+    background-color: #2A2A2A;
+    width: 390px;
+    height: 66px;
+    border-radius: 0 0 18px 18px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-content p, .card-content h2 {
+    margin-left: 23px;
+}
+
+.card-content p {
+    font-size: 10px;
+    color: #C5C5C5;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+
+.card-content h2 {
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+}

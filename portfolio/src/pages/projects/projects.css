@@ -4,3 +4,8 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.cards-container {
+    display: flex;
+    gap: 30px;
+}
