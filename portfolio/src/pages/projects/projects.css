@@ -1,0 +1,6 @@
+.projects-container h1 {
+    background: var(--Orange-Gradient, linear-gradient(180deg, #FF8660 0%, #D5491D 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
