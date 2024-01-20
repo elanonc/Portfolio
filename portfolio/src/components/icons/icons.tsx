@@ -10,13 +10,13 @@ import reactjs from '../../assets/reactjs.svg'
 const Icon: React.FC = () => {
   return (
     <>
-        <div className="icons-container">
-            <img src={css} alt="icon do css" />
-            <img src={html} alt="icon do html" />
-            <img src={javascript} alt="icon do javascript" />
-            <img src={nodejs} alt="icon do nodejs" />
-            <img src={reactjs} alt="icon do reactjs" />
-        </div>
+      <div className="icons-container">
+        <img src={css} alt="icon do css" />
+        <img src={html} alt="icon do html" />
+        <img src={javascript} alt="icon do javascript" />
+        <img src={nodejs} alt="icon do nodejs" />
+        <img src={reactjs} alt="icon do reactjs" />
+      </div>
     </>
   );
 };
