@@ -17,8 +17,10 @@ const Banner: React.FC<BannerProps> = ({
   <div className="banner">
     <div className="banner-content">
       <div className="banner-div">
-        <img src={iconUrl} alt="icon da empresa" className="experience-icon" />
-        <h3 className="experience-name">{name}</h3>
+        <div className="empresa-cargo">
+          <img src={iconUrl} alt="icon da empresa" className="experience-icon" />
+          <h3 className="experience-name">{name}</h3>
+        </div>
         <p className="experience-date">{date}</p>
       </div>
       <p className="experience-description">{description}</p>

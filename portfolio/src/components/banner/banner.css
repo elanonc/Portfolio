@@ -6,6 +6,13 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+}
+
+.empresa-cargo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     gap: 25px;
 }
 
