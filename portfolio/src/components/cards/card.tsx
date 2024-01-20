@@ -1,5 +1,5 @@
 import React from 'react';
-import "./card.css"; // Certifique-se de criar o arquivo CSS correspondente
+import "./card.css";
 
 type CardProps = {
   imageUrl: string;

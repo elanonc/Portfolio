@@ -1,5 +1,12 @@
-.experience-container {
+.experience-container h1 {
+    background: var(--Blue-Gradient, linear-gradient(180deg, #5BADFF 0%, #1373D1 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* .experience-container {
     display: flex;
     flex-direction: column;
     gap: 48px;
-}
+} */
