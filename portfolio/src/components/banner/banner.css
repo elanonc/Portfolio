@@ -45,3 +45,7 @@
 .experience-description {
     width: 800px;
 }
+
+.experience-icon {
+    border-radius: 50%;
+}

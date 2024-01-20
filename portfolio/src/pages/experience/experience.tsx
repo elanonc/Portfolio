@@ -3,6 +3,7 @@ import "./experience.css";
 import CustomTitle from '../../components/title/title';
 
 import compass from '../../assets/empresas/UOL.png'
+import spacemesh from '../../assets/empresas/spacemesh2.png'
 import Banner from '../../components/banner/banner';
 
 const Experience: React.FC = () => {
@@ -15,6 +16,12 @@ const Experience: React.FC = () => {
           name='Estagiário DevSecOps'
           description='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
           date='Jul 2023 - Dez 2023'
+        />
+        <Banner
+          iconUrl={spacemesh}
+          name='Voluntário (projeto open source)'
+          description='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+          date='Dez 2023 - Atualmente'
         />
     </div>
   );
