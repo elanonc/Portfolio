@@ -3,6 +3,7 @@ import "./home.css";
 import CustomText from '../../components/text/text';
 import CustomTitle from '../../components/title/title';
 import Button from '../../components/buttons/button';
+import Icon from '../../components/icons/icons';
 
 const PortfolioHome: React.FC = () => {
 
@@ -37,6 +38,10 @@ const PortfolioHome: React.FC = () => {
             textColor="#FFF"
           />
       </div>
+      <div className='home-experience-container'>
+        <CustomTitle text="EXPERIENCE WITH" size="20px"/>
+        <Icon/>
+    </div>
     </>
   );
 };

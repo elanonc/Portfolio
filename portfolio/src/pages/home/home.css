@@ -24,3 +24,9 @@
 .home-text-container .custom-title {
     width: 656px;
 }
+
+.home-experience-container {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}

@@ -3,3 +3,7 @@
     justify-content: center;
     gap: 60.45px;
 }
+
+.icons-container img {
+    cursor: pointer;
+}
