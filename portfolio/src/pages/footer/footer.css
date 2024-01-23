@@ -1,5 +1,28 @@
-footer {
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #191919;
     height: 420px;
-    width: 100vw;
+    margin-top: 110px;
+}
+
+.footer-container {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-container .custom-text {
+    margin-top: 35px;
+    margin-bottom: 22px;
+    color: #C5C5C5;
+}
+
+.email-container {
+    display: flex;
+    flex-direction: row;
+    gap: 5.5px;
 }
