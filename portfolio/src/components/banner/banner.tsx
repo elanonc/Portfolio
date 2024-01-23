@@ -1,5 +1,6 @@
 import React from 'react';
 import "./banner.css";
+import CustomText from '../text/text';
 
 type BannerProps = {
   iconUrl: string;
@@ -21,9 +22,9 @@ const Banner: React.FC<BannerProps> = ({
           <img src={iconUrl} alt="icon da empresa" className="experience-icon" />
           <h3 className="experience-name">{name}</h3>
         </div>
-        <p className="experience-date">{date}</p>
+        <CustomText text={date} size="15px"/>
       </div>
-      <p className="experience-description">{description}</p>
+      <CustomText text={description} size="15px"/>
     </div>
   </div>
 );

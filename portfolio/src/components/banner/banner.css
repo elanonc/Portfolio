@@ -35,8 +35,7 @@
     text-transform: uppercase;
 }
 
-.banner-content p {
-    font-size: 15px;
+.banner-content .custom-text {
     color: #8491A0;
     font-weight: 400;
     line-height: 150%;
