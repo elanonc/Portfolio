@@ -15,8 +15,8 @@ function App() {
         <PortfolioHome/>
         <PortfolioProject/>
         <Experience/>
-        <PortfolioFooter/>
       </div>
+      <PortfolioFooter/>
     </>
   )
 }

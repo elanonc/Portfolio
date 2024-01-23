@@ -25,3 +25,7 @@ body {
   gap: 100px;
   align-items: center;
 }
+
+.components-container h1{
+  text-align: center;
+}
