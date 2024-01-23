@@ -30,3 +30,7 @@
     flex-direction: column;
     gap: 48px;
 }
+
+.home-text-container .custom-text {
+    text-align: center;
+}
