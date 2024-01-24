@@ -41,10 +41,10 @@
     line-height: 150%;
 }
 
-.experience-description {
-    width: 800px;
-}
-
 .experience-icon {
     border-radius: 50%;
+}
+
+.experience-container {
+    width: 800px;
 }
